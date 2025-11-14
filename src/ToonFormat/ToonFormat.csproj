@@ -15,7 +15,7 @@
     <RepositoryUrl>https://github.com/ErtugrulKra/ToonFormat</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageTags>toon;json;llm;token;serialization;format;compact</PackageTags>
-    <Version>0.1.0</Version>
+    <Version>0.1.1</Version>
     <PackageReleaseNotes>Initial release of ToonFormat for .NET</PackageReleaseNotes>
     <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>

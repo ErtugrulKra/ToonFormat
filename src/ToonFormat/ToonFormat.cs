@@ -100,11 +100,34 @@ namespace ToonFormat
     /// </summary>
     public class ComparisonMetrics
     {
+        /// <summary>
+        /// Gets or sets the size of the JSON representation in bytes.
+        /// </summary>
         public int JsonSize { get; set; }
+
+        /// <summary>
+        /// Gets or sets the size of the TOON representation in bytes.
+        /// </summary>
         public int ToonSize { get; set; }
+
+        /// <summary>
+        /// Gets or sets the number of tokens in the JSON representation.
+        /// </summary>
         public int JsonTokens { get; set; }
+
+        /// <summary>
+        /// Gets or sets the number of tokens in the TOON representation.
+        /// </summary>
         public int ToonTokens { get; set; }
+
+        /// <summary>
+        /// Gets or sets the size reduction percentage (0-100).
+        /// </summary>
         public double SizeReduction { get; set; }
+
+        /// <summary>
+        /// Gets or sets the token reduction percentage (0-100).
+        /// </summary>
         public double TokenReduction { get; set; }
     }
 }

@@ -190,7 +190,7 @@ namespace ToonFormat
             if (arr.Count == 0)
                 return "[0]:";
 
-            var firstDict = arr[0] as IDictionary ?? throw new InvalidOperationException();
+            var firstDict = (arr[0] as IDictionary) ?? throw new InvalidOperationException("First array item must be a dictionary");
             var keys = GetDictionaryKeys(firstDict);
             var n = arr.Count;
 
@@ -202,8 +202,11 @@ namespace ToonFormat
 
             var lines = new List<string> { header };
 
-            foreach (IDictionary item in arr)
+            foreach (var arrItem in arr)
             {
+                if (arrItem is not IDictionary item)
+                    continue;
+
                 var values = new List<string>();
                 foreach (var key in keys)
                 {
