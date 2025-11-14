@@ -303,7 +303,7 @@ MIT License
 ## Links
 
 - [NuGet Package](https://www.nuget.org/packages/ToonFormat)
-- [GitHub Repository](https://github.com/ErtugrulKra/py-toon-format)
+- [GitHub Repository](https://github.com/ErtugrulKra/ToonFormat)
 - [TOON Specification](https://github.com/toon-format/toon)
 - [Format Documentation](https://toonformat.dev)
 
