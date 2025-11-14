@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <Nullable>enable</Nullable>
+    <PackAsTool>true</PackAsTool>
+    <ToolCommandName>toon</ToolCommandName>
+    <PackageId>ToonFormat.Tool</PackageId>
+    <Version>0.1.0</Version>
+    <Authors>Ertugrul Kara</Authors>
+    <Company>Ertugrul Kara</Company>
+    <Product>ToonFormat Tool</Product>
+    <Description>Command-line tool for Token-Oriented Object Notation (TOON) format conversion</Description>
+    <Copyright>Copyright © 2025 Ertugrul Kara</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/ErtugrulKra/ToonFormat</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/ErtugrulKra/ToonFormat</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>toon;json;llm;token;cli;tool;global-tool</PackageTags>
+    <PackageReleaseNotes>Initial release of ToonFormat Global Tool</PackageReleaseNotes>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ToonFormat\ToonFormat.csproj" />
+  </ItemGroup>
+
+</Project>
+
